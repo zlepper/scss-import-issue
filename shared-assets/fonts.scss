@@ -1,0 +1,13 @@
+$shared-asset-location: "~/shared-assets";
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(#{$shared-asset-location}/fonts/AvenirNext-Regular.eot);
+  src: url(#{$shared-asset-location}/fonts/AvenirNext-Regular.eot#iefix) format('embedded-opentype'),
+  url(#{$shared-asset-location}/fonts/AvenirNext-Regular.woff) format('woff'),
+  url(#{$shared-asset-location}/fonts/AvenirNext-Regular.ttf) format('truetype'),
+  url(#{$shared-asset-location}/fonts/AvenirNext-Regular.svg#AvenirNext-Regular) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  //font-display: optional;
+}
